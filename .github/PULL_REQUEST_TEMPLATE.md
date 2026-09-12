@@ -1,7 +1,35 @@
-Before submitting your Pull Request, please review and complete the items on this checklist.
+## Summary
 
-- [ ] The text has been proofread for grammar and spelling errors.
-- [ ] All images, figures, and tables render properly without any glitches.
-- [ ] All images have a source or they are properly linked to external sites.
-- [ ] The chapter's formatting is consistent with the rest of the book.
-- [ ] The chapter has been locally built and tested using Quarto.
+<!-- What does this PR do? 1-3 sentences. -->
+
+## Area
+
+<!-- Check the area(s) this PR affects: -->
+
+- [ ] Book (textbook content, figures, exercises)
+- [ ] TinyTorch (modules, tests, milestones)
+- [ ] StaffML (interview questions, challenges)
+- [ ] Kits (hardware labs)
+- [ ] Infrastructure (CI/CD, scripts, config)
+
+## Changes
+
+<!-- What changed and why? Bullet points are fine. -->
+
+-
+
+## Testing
+
+<!-- How did you verify this works? -->
+
+- [ ] Rendered the book locally (`quarto render`)
+- [ ] Ran tests (`pytest tests/`)
+- [ ] Ran `tito module test NN` for affected module(s)
+- [ ] Manual verification (describe below)
+
+## Related Issues
+
+<!-- Link any related issues: "Fixes #123" or "Related to #456" -->
+
+---
+*By submitting this PR, you agree to release your contribution under the project's license.*
